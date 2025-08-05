@@ -1,13 +1,13 @@
-# 🌐 **Intern Dashboard Portal** (Dummy Full Stack App)
+#  **Intern Dashboard Portal** (Dummy Full Stack App)
 
 A simple full-stack intern dashboard using **React** and **Node.js + Express**.  
 This app uses **localStorage** for login and shows dummy backend data for leaderboard, referral code, donations, and rewards.
 
 ---
 
-## 🚀 **Features**
+##  **Features**
 
-### 👨‍💻 **Frontend (React)**
+###  **Frontend (React)**
 
 - **Name-based login** (no password or auth)
 - Saves user in `localStorage`
@@ -20,7 +20,7 @@ This app uses **localStorage** for login and shows dummy backend data for leader
 - Refresh clears login (redirects to login page)
 - Duplicate name detection (shows dashboard but doesn’t re-add to leaderboard)
 
-### ⚙️ **Backend (Node.js + Express)**
+###  **Backend (Node.js + Express)**
 
 - Simple Express server with two dummy API routes:
   - `/api/user` → returns static user data
@@ -35,7 +35,7 @@ This app uses **localStorage** for login and shows dummy backend data for leader
 
 ## 🔧 **Setup Instructions**
 
-### 📦 1. Backend Setup (Node.js API)
+###  1. Backend Setup (Node.js API)
 
 ```bash
 # Go to the backend directory
@@ -48,7 +48,7 @@ npm install express cors
 node server.js
 
 ```
-### 🖥️ 2. Frontend Setup (React Application)
+###  2. Frontend Setup (React Application)
 
 ```bash
 
@@ -63,7 +63,7 @@ npm start
 
 ```
 
-## 🖼️ Preview
+##  Preview
 
 Here is a preview of the Intern Dashboard:
 
