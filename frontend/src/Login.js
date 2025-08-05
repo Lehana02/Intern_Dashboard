@@ -6,19 +6,15 @@ function Login({ onLogin }) {
   const handleSubmit = () => {
     if (!name.trim()) return;
 
-    // Get existing leaderboard data
     let leaderboard = JSON.parse(localStorage.getItem("leaderboardData") || "[]");
 
-    // Check if name already exists
     const alreadyExists = leaderboard.some(
       (user) => user.name.toLowerCase() === name.toLowerCase()
     );
 
     if (alreadyExists) {
-      // ✅ Name exists → Don't add again, but login
       onLogin(name, true); // true = duplicate
     } else {
-      // ✅ New name → Add to leaderboard
       const newUser = {
         name,
         amount: Math.floor(Math.random() * 2000 + 500),
@@ -57,3 +53,4 @@ function Login({ onLogin }) {
 }
 
 export default Login;
+
