@@ -67,6 +67,6 @@ npm start
 
 Here is a preview of the Intern Dashboard:
 
-![Intern Dashboard Preview 1](screenshots/preview1.png)
-![Intern Dashboard Preview 2](screenshots/preview2.png)
-![Intern Dashboard Preview 3](screenshots/preview3.png)
+![Intern Dashboard Preview 1](frontend/screenshots/preview1.png)
+![Intern Dashboard Preview 2](frontend/screenshots/preview2.png)
+![Intern Dashboard Preview 3](frontend/screenshots/preview3.png)
